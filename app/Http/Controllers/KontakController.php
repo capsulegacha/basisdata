@@ -66,7 +66,7 @@ class KontakController extends Controller
             abort(404); // Show a 404 error if not found
         }
 
-        return view('datakontak.edit', compact('kontaks'));
+        return view('datakontak.edit', compact('kontak'));
     }
 
     /**
